@@ -15,11 +15,9 @@ struct ContentView: View {
                 .padding()
             Text("New, world!")
                 .bold()
-                .lineLimit(2)
                 .fixedSize(horizontal: true, vertical: true)
         }
         .frame(width: 500, height: 300, alignment: .bottom)
-        .background(Capsule())
     }
 }
 
