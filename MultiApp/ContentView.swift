@@ -16,7 +16,6 @@ struct ContentView: View {
             Text("Hello, world!")
                 .font(.title)
         }
-        .padding()
         .frame(width: 500, height: 300, alignment: .bottom)
         .background(Capsule())
     }
