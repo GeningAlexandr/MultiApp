@@ -14,8 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.title)
         }
         .padding()
+        .padding()
+        .frame(width: 500, height: 300, alignment: .bottom)
+        .background(Capsule())
     }
 }
 
